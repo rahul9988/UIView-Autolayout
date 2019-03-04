@@ -1,4 +1,4 @@
-# UIView-Autolayout
+# UIView+Autolayout
 A UIView class that will help you adding constraints programatically
 
 

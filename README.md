@@ -14,7 +14,8 @@ A UIView class that will help you adding constraints programatically
 
         view.addSubview(tableView)
         
-        tableView.addTopMargin(100)
+        let top = getTopSafeMargin()
+        tableView.addTopMargin(top)
         tableView.addLeadingMargin()
         tableView.addTrailingMargin()
         tableView.addBottomMargin()

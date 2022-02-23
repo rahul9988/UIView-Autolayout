@@ -1,7 +1,5 @@
 import XCTest
 
-import Loop
-
 final class UIViewAutolayoutTests: XCTestCase {
     let superview = UIView()
     let view = UIView()
